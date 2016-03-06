@@ -1,0 +1,5 @@
+colander==1.2
+numpy==1.10.4
+scanf==1.2
+simplejson==3.6.5
+
