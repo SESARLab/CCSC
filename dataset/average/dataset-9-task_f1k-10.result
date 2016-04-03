@@ -1,0 +1,228 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m deploy.mod -d /home/ubuntu/averagef1k/dataset-9-task_f1k-10
+Reading model section from deploy.mod...
+deploy.mod:33: warning: unexpected end of file; missing end statement inserted
+33 lines were read
+Reading data section from /home/ubuntu/averagef1k/dataset-9-task_f1k-10...
+/home/ubuntu/averagef1k/dataset-9-task_f1k-10:230: warning: unexpected end of file; missing end statement inserted
+230 lines were read
+Generating v...
+Generating capacity...
+Generating assign...
+Generating fixtozero...
+Generating checkD...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.52
+101 rows, 180 columns, 579 non-zeros
+180 integer variables, all of which are binary
+Preprocessing...
+72 hidden packing inequaliti(es) were detected
+100 rows, 180 columns, 480 non-zeros
+180 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 99
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.52
+100 rows, 180 columns, 480 non-zeros
+      0: obj =   5.610000000e-01  infeas =  5.000e+00 (1)
+*     5: obj =   2.400131467e+00  infeas =  0.000e+00 (1)
+*    93: obj =   2.939442000e-01  infeas =  3.698e-32 (1)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
++    93: mip =     not found yet >=              -inf        (1; 0)
++   109: >>>>>   6.486480000e-01 >=   3.676992000e-01  43.3% (10; 0)
++   132: >>>>>   5.715600000e-01 >=   3.845292000e-01  32.7% (10; 4)
++   137: mip =   5.715600000e-01 >=     tree is empty   0.0% (0; 25)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.5 Mb (516239 bytes)
+Display statement at line 29
+y[1,0].val = 0
+y[1,1].val = 1
+y[1,2].val = 0
+y[1,3].val = 0
+y[1,4].val = 0
+y[1,5].val = 0
+y[1,6].val = 0
+y[1,7].val = 0
+y[1,8].val = 0
+y[1,9].val = 1
+y[1,10].val = 0
+y[1,11].val = 0
+y[1,12].val = 0
+y[1,13].val = 0
+y[1,14].val = 0
+y[1,15].val = 0
+y[1,16].val = 0
+y[1,17].val = 0
+y[2,0].val = 0
+y[2,1].val = 0
+y[2,2].val = 0
+y[2,3].val = 0
+y[2,4].val = 0
+y[2,5].val = 0
+y[2,6].val = 0
+y[2,7].val = 0
+y[2,8].val = 0
+y[2,9].val = 1
+y[2,10].val = 0
+y[2,11].val = 0
+y[2,12].val = 0
+y[2,13].val = 0
+y[2,14].val = 0
+y[2,15].val = 0
+y[2,16].val = 0
+y[2,17].val = 0
+y[3,0].val = 0
+y[3,1].val = 0
+y[3,2].val = 0
+y[3,3].val = 0
+y[3,4].val = 0
+y[3,5].val = 0
+y[3,6].val = 0
+y[3,7].val = 0
+y[3,8].val = 0
+y[3,9].val = 1
+y[3,10].val = 0
+y[3,11].val = 0
+y[3,12].val = 0
+y[3,13].val = 0
+y[3,14].val = 0
+y[3,15].val = 0
+y[3,16].val = 0
+y[3,17].val = 0
+y[4,0].val = 0
+y[4,1].val = 0
+y[4,2].val = 0
+y[4,3].val = 0
+y[4,4].val = 0
+y[4,5].val = 0
+y[4,6].val = 0
+y[4,7].val = 0
+y[4,8].val = 0
+y[4,9].val = 1
+y[4,10].val = 0
+y[4,11].val = 0
+y[4,12].val = 0
+y[4,13].val = 0
+y[4,14].val = 0
+y[4,15].val = 0
+y[4,16].val = 0
+y[4,17].val = 0
+y[5,0].val = 0
+y[5,1].val = 0
+y[5,2].val = 0
+y[5,3].val = 0
+y[5,4].val = 0
+y[5,5].val = 0
+y[5,6].val = 0
+y[5,7].val = 0
+y[5,8].val = 0
+y[5,9].val = 0
+y[5,10].val = 0
+y[5,11].val = 0
+y[5,12].val = 0
+y[5,13].val = 0
+y[5,14].val = 0
+y[5,15].val = 0
+y[5,16].val = 0
+y[5,17].val = 0
+Display statement at line 30
+v.val = 0.57156
+Display statement at line 31
+x[1,0].val = 0
+x[1,1].val = 0
+x[1,2].val = 0
+x[1,3].val = 0
+x[1,4].val = 0
+x[1,5].val = 0
+x[1,6].val = 0
+x[1,7].val = 0
+x[1,8].val = 0
+x[1,9].val = 1
+x[1,10].val = 0
+x[1,11].val = 0
+x[1,12].val = 0
+x[1,13].val = 0
+x[1,14].val = 0
+x[1,15].val = 0
+x[1,16].val = 0
+x[1,17].val = 0
+x[2,0].val = 0
+x[2,1].val = 0
+x[2,2].val = 0
+x[2,3].val = 0
+x[2,4].val = 0
+x[2,5].val = 0
+x[2,6].val = 0
+x[2,7].val = 0
+x[2,8].val = 0
+x[2,9].val = 1
+x[2,10].val = 0
+x[2,11].val = 0
+x[2,12].val = 0
+x[2,13].val = 0
+x[2,14].val = 0
+x[2,15].val = 0
+x[2,16].val = 0
+x[2,17].val = 0
+x[3,0].val = 0
+x[3,1].val = 1
+x[3,2].val = 0
+x[3,3].val = 0
+x[3,4].val = 0
+x[3,5].val = 0
+x[3,6].val = 0
+x[3,7].val = 0
+x[3,8].val = 0
+x[3,9].val = 0
+x[3,10].val = 0
+x[3,11].val = 0
+x[3,12].val = 0
+x[3,13].val = 0
+x[3,14].val = 0
+x[3,15].val = 0
+x[3,16].val = 0
+x[3,17].val = 0
+x[4,0].val = 0
+x[4,1].val = 0
+x[4,2].val = 0
+x[4,3].val = 0
+x[4,4].val = 0
+x[4,5].val = 0
+x[4,6].val = 0
+x[4,7].val = 0
+x[4,8].val = 0
+x[4,9].val = 1
+x[4,10].val = 0
+x[4,11].val = 0
+x[4,12].val = 0
+x[4,13].val = 0
+x[4,14].val = 0
+x[4,15].val = 0
+x[4,16].val = 0
+x[4,17].val = 0
+x[5,0].val = 0
+x[5,1].val = 0
+x[5,2].val = 0
+x[5,3].val = 0
+x[5,4].val = 0
+x[5,5].val = 0
+x[5,6].val = 0
+x[5,7].val = 0
+x[5,8].val = 0
+x[5,9].val = 1
+x[5,10].val = 0
+x[5,11].val = 0
+x[5,12].val = 0
+x[5,13].val = 0
+x[5,14].val = 0
+x[5,15].val = 0
+x[5,16].val = 0
+x[5,17].val = 0
+FILIPPO: 1.732000
+Model has been successfully processed

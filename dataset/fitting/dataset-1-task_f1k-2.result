@@ -1,0 +1,29 @@
+GLPSOL: GLPK LP/MIP Solver, v4.52
+Parameter(s) specified in the command line:
+ -m deploy.mod -d /home/ubuntu/fitting_small/dataset-1-task_f1k-2
+Reading model section from deploy.mod...
+deploy.mod:33: warning: unexpected end of file; missing end statement inserted
+33 lines were read
+Reading data section from /home/ubuntu/fitting_small/dataset-1-task_f1k-2...
+/home/ubuntu/fitting_small/dataset-1-task_f1k-2:533: warning: unexpected end of file; missing end statement inserted
+533 lines were read
+Generating v...
+Generating capacity...
+Generating assign...
+Generating fixtozero...
+Generating checkD...
+Model has been successfully generated
+GLPK Simplex Optimizer, v4.52
+25 rows, 0 columns, 0 non-zeros
+~     0: obj =   0.000000000e+00  infeas =  0.000e+00
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.1 Mb (154995 bytes)
+Display statement at line 29
+y has empty content
+Display statement at line 30
+v.val = 0
+Display statement at line 31
+x has empty content
+FILIPPO: 0.000000
+Model has been successfully processed
