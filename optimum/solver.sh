@@ -1,18 +1,18 @@
 #!/bin/bash
 
-for filename in dataset/shareProfile/*
+for filename in ../dataset/share/*
 do
   destination=${filename}.result
   glpsol -m deploy.mod -d $filename > $destination
 done
 
-for filename in dataset/fittingProfile/*
+for filename in ../dataset/fitting/*
 do
   destination=${filename}.result
   glpsol -m deploy.mod -d $filename > $destination
 done
 
-for filename in dataset/averageProfile/*
+for filename in ../dataset/average/*
 do
   destination=${filename}.result
   glpsol -m deploy.mod -d $filename > $destination
